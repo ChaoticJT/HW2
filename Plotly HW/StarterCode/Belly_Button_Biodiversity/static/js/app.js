@@ -26,7 +26,8 @@ function buildCharts(sample) {
     var bData = [{
       x: response.otu_ids,
       y: response.sample_values,
-      text: response.otu_labels
+      text: response.otu_labels,
+      mode: 'markers'
 
     }]
 
